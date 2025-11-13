@@ -1,0 +1,74 @@
+{
+  "name": "moviebox-js-sdk",
+  "version": "1.0.0",
+  "description": "Unofficial Moviebox API client for JavaScript",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makaveliie/moviebox-js-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/makaveliie/moviebox-js-sdk/issues"
+  },
+  "homepage": "https://github.com/makaveliie/moviebox-js-sdk#readme",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc --project tsconfig.json",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev": "tsx watch src/index.ts",
+    "prepublishOnly": "npm run clean && npm run build && npm run lint && npm test"
+  },
+  "keywords": [
+    "moviebox",
+    "streaming",
+    "sdk",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Makaveli",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.46.4",
+    "@typescript-eslint/parser": "^8.46.4",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.8"
+  },
+  "dependencies": {
+    "pino": "^9.4.0",
+    "undici": "^6.19.8"
+  }
+}

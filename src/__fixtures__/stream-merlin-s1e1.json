@@ -1,0 +1,32 @@
+{
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "streams": [
+      {
+        "format": "MP4",
+        "id": "6137440414628036776",
+        "url": "https://bcdnw.hakunaymatata.com/bt/a4eeb6aa317742ea2ddea90a770450b7.mp4?sign=d34b9add50aa8f3feb086f03d412e16d&t=1763025873",
+        "resolutions": "360",
+        "size": "127075023",
+        "duration": 2652,
+        "codecName": "h264"
+      },
+      {
+        "format": "MP4",
+        "id": "7798793688104550480",
+        "url": "https://bcdnw.hakunaymatata.com/resource/a1498e259db8f8e1a0b8c0c0e054d898.mp4?sign=fae1a09585e7a09797049f6157503733&t=1763025566",
+        "resolutions": "480",
+        "size": "588771202",
+        "duration": 2652,
+        "codecName": "h264"
+      }
+    ],
+    "freeNum": 6,
+    "limited": false,
+    "limitedCode": "",
+    "dash": [],
+    "hls": [],
+    "hasResource": true
+  }
+}

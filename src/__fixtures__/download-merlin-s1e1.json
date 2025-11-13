@@ -1,0 +1,90 @@
+{
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "downloads": [
+      {
+        "id": "6137440414628036776",
+        "url": "https://bcdnw.hakunaymatata.com/bt/a4eeb6aa317742ea2ddea90a770450b7.mp4?sign=d34b9add50aa8f3feb086f03d412e16d&t=1763025873",
+        "resolution": 360,
+        "size": "127075023"
+      },
+      {
+        "id": "7798793688104550480",
+        "url": "https://bcdnw.hakunaymatata.com/resource/a1498e259db8f8e1a0b8c0c0e054d898.mp4?sign=fae1a09585e7a09797049f6157503733&t=1763025566",
+        "resolution": 480,
+        "size": "588771202"
+      }
+    ],
+    "captions": [
+      {
+        "id": "5040295438386185208",
+        "lan": "ar",
+        "lanName": "اَلْعَرَبِيَّةُ",
+        "url": "https://cacdn.hakunaymatata.com/msubt/2fe99ffcf1bb3f15bf7bc972847c821c.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYzNjMwOTMyfX19XX0_&Signature=JztNkWFh56orhUbOIZRwlH1N6s7WwAYsQUXkqs8wJV3V4~~n2xR65JMIYhn5168RYH4vCHkwSsf4BTSA2BBicWQbqMUCCUg3RbapdoUKfemAE-oNpzIMO07VKpz0JOQg0G5o3A5eDetk80uk8tmoKoz52USF~t-KtZZIQuuEx7AZlGHvhxQEfpGve6wrk4wtGpu~i6lvWVWSWI6xDp6HesPsJePcsX~NulQiQhKjRup9hVqClLJ-q-7LjvKao1l75LF3U7FrJu6fz9n~C7ASTR-K-9P5~wkMrvoUOmQIGIZ0ScqyUu-tG8~pPc1FcDZgzdi0ZAO1Y5ZQvx4QRLauqQ__&Key-Pair-Id=KMHN1LQ1HEUPL",
+        "size": "42842",
+        "delay": 0
+      },
+      {
+        "id": "2153036774963134528",
+        "lan": "bn",
+        "lanName": "বাংলা",
+        "url": "https://cacdn.hakunaymatata.com/msubt/0278bc2c56376be81950ff4c8ee023ef.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYzNjMwOTMyfX19XX0_&Signature=JztNkWFh56orhUbOIZRwlH1N6s7WwAYsQUXkqs8wJV3V4~~n2xR65JMIYhn5168RYH4vCHkwSsf4BTSA2BBicWQbqMUCCUg3RbapdoUKfemAE-oNpzIMO07VKpz0JOQg0G5o3A5eDetk80uk8tmoKoz52USF~t-KtZZIQuuEx7AZlGHvhxQEfpGve6wrk4wtGpu~i6lvWVWSWI6xDp6HesPsJePcsX~NulQiQhKjRup9hVqClLJ-q-7LjvKao1l75LF3U7FrJu6fz9n~C7ASTR-K-9P5~wkMrvoUOmQIGIZ0ScqyUu-tG8~pPc1FcDZgzdi0ZAO1Y5ZQvx4QRLauqQ__&Key-Pair-Id=KMHN1LQ1HEUPL",
+        "size": "60702",
+        "delay": 0
+      },
+      {
+        "id": "2544218822870024320",
+        "lan": "en",
+        "lanName": "English",
+        "url": "https://cacdn.hakunaymatata.com/subtitle/85633276b95979818cf875985fbf9a42.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9zdWJ0aXRsZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYzNjMwOTMyfX19XX0_&Signature=MVUG-9~J8-BUMoj9jfkTReD5VIx9st-gtZqCczW2-EFss6tyMp0wJQ1iDkfaVdCu6B6ZPk0Z9tgAvKLZQAW79b5qw5p9h3s1m69WZp2ETh2tbzFs-eR6hChLzhR2MODYhqozQma2J2X00WVI6MkLkMTyPyecpa1z-YR6qeh9ard5l4K3RVF09ueVASFudvDW6D1A5-BsBNBdhIak25KV931yOnhHjerG41ykaJgROPL03At4lQ6p7XqPN~nf43pZx-GTPSXlikTVxhTcADBa4I24WLpDZp3u4cTEjGbarc-YszKYGCHTnZrPkZlY2M6Txqqb5ubTwXbx35DsKlRLzA__&Key-Pair-Id=KMHN1LQ1HEUPL",
+        "size": "37031",
+        "delay": 0
+      },
+      {
+        "id": "6645880979590727352",
+        "lan": "fil",
+        "lanName": "Filipino",
+        "url": "https://cacdn.hakunaymatata.com/msubt/63f372cf87b02766869a16a107471142.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYzNjMwOTMyfX19XX0_&Signature=JztNkWFh56orhUbOIZRwlH1N6s7WwAYsQUXkqs8wJV3V4~~n2xR65JMIYhn5168RYH4vCHkwSsf4BTSA2BBicWQbqMUCCUg3RbapdoUKfemAE-oNpzIMO07VKpz0JOQg0G5o3A5eDetk80uk8tmoKoz52USF~t-KtZZIQuuEx7AZlGHvhxQEfpGve6wrk4wtGpu~i6lvWVWSWI6xDp6HesPsJePcsX~NulQiQhKjRup9hVqClLJ-q-7LjvKao1l75LF3U7FrJu6fz9n~C7ASTR-K-9P5~wkMrvoUOmQIGIZ0ScqyUu-tG8~pPc1FcDZgzdi0ZAO1Y5ZQvx4QRLauqQ__&Key-Pair-Id=KMHN1LQ1HEUPL",
+        "size": "38500",
+        "delay": 0
+      },
+      {
+        "id": "3672942275572777096",
+        "lan": "fr",
+        "lanName": "Français",
+        "url": "https://cacdn.hakunaymatata.com/msubt/580eaaa337058c0fb5ee2f0f336bc467.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYzNjMwOTMyfX19XX0_&Signature=JztNkWFh56orhUbOIZRwlH1N6s7WwAYsQUXkqs8wJV3V4~~n2xR65JMIYhn5168RYH4vCHkwSsf4BTSA2BBicWQbqMUCCUg3RbapdoUKfemAE-oNpzIMO07VKpz0JOQg0G5o3A5eDetk80uk8tmoKoz52USF~t-KtZZIQuuEx7AZlGHvhxQEfpGve6wrk4wtGpu~i6lvWVWSWI6xDp6HesPsJePcsX~NulQiQhKjRup9hVqClLJ-q-7LjvKao1l75LF3U7FrJu6fz9n~C7ASTR-K-9P5~wkMrvoUOmQIGIZ0ScqyUu-tG8~pPc1FcDZgzdi0ZAO1Y5ZQvx4QRLauqQ__&Key-Pair-Id=KMHN1LQ1HEUPL",
+        "size": "38859",
+        "delay": 0
+      },
+      {
+        "id": "4365166209118224456",
+        "lan": "in_id",
+        "lanName": "Indonesian",
+        "url": "https://cacdn.hakunaymatata.com/msubt/8cfae5d1087a070867fcf1fc998bfa8f.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYzNjMwOTMyfX19XX0_&Signature=JztNkWFh56orhUbOIZRwlH1N6s7WwAYsQUXkqs8wJV3V4~~n2xR65JMIYhn5168RYH4vCHkwSsf4BTSA2BBicWQbqMUCCUg3RbapdoUKfemAE-oNpzIMO07VKpz0JOQg0G5o3A5eDetk80uk8tmoKoz52USF~t-KtZZIQuuEx7AZlGHvhxQEfpGve6wrk4wtGpu~i6lvWVWSWI6xDp6HesPsJePcsX~NulQiQhKjRup9hVqClLJ-q-7LjvKao1l75LF3U7FrJu6fz9n~C7ASTR-K-9P5~wkMrvoUOmQIGIZ0ScqyUu-tG8~pPc1FcDZgzdi0ZAO1Y5ZQvx4QRLauqQ__&Key-Pair-Id=KMHN1LQ1HEUPL",
+        "size": "37171",
+        "delay": 0
+      },
+      {
+        "id": "7874203611491189864",
+        "lan": "ru",
+        "lanName": "Русский",
+        "url": "https://cacdn.hakunaymatata.com/msubt/929f5be024d3b21083e9e60095fa0e30.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYzNjMwOTMyfX19XX0_&Signature=JztNkWFh56orhUbOIZRwlH1N6s7WwAYsQUXkqs8wJV3V4~~n2xR65JMIYhn5168RYH4vCHkwSsf4BTSA2BBicWQbqMUCCUg3RbapdoUKfemAE-oNpzIMO07VKpz0JOQg0G5o3A5eDetk80uk8tmoKoz52USF~t-KtZZIQuuEx7AZlGHvhxQEfpGve6wrk4wtGpu~i6lvWVWSWI6xDp6HesPsJePcsX~NulQiQhKjRup9hVqClLJ-q-7LjvKao1l75LF3U7FrJu6fz9n~C7ASTR-K-9P5~wkMrvoUOmQIGIZ0ScqyUu-tG8~pPc1FcDZgzdi0ZAO1Y5ZQvx4QRLauqQ__&Key-Pair-Id=KMHN1LQ1HEUPL",
+        "size": "48596",
+        "delay": 0
+      },
+      {
+        "id": "5556229772092620864",
+        "lan": "ur",
+        "lanName": "اُردُو",
+        "url": "https://cacdn.hakunaymatata.com/msubt/cb137de5ba8042cda4b8fed8a1716b29.srt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYWNkbi5oYWt1bmF5bWF0YXRhLmNvbS9tc3VidC8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzYzNjMwOTMyfX19XX0_&Signature=JztNkWFh56orhUbOIZRwlH1N6s7WwAYsQUXkqs8wJV3V4~~n2xR65JMIYhn5168RYH4vCHkwSsf4BTSA2BBicWQbqMUCCUg3RbapdoUKfemAE-oNpzIMO07VKpz0JOQg0G5o3A5eDetk80uk8tmoKoz52USF~t-KtZZIQuuEx7AZlGHvhxQEfpGve6wrk4wtGpu~i6lvWVWSWI6xDp6HesPsJePcsX~NulQiQhKjRup9hVqClLJ-q-7LjvKao1l75LF3U7FrJu6fz9n~C7ASTR-K-9P5~wkMrvoUOmQIGIZ0ScqyUu-tG8~pPc1FcDZgzdi0ZAO1Y5ZQvx4QRLauqQ__&Key-Pair-Id=KMHN1LQ1HEUPL",
+        "size": "48687",
+        "delay": 0
+      }
+    ],
+    "limited": false,
+    "limitedCode": "",
+    "freeNum": 6,
+    "hasResource": true
+  }
+}
