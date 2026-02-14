@@ -30,8 +30,8 @@ const results = await search(session, { query: 'Inception' });
 const first = results.results[0];
 
 if (first) {
-  const details = await getMovieDetails(session, { detailPath: first.detailPath });
-  const stream = await getMovieStreamUrl(session, { detailPath: first.detailPath, quality: 'best' });
+  const details = await getMovieDetails(session, { detailPath: first.raw.detailPath });
+  const stream = await getMovieStreamUrl(session, { detailPath: first.raw.detailPath, quality: 'best' });
 
   console.log(details.title, stream.stream?.url);
 }
