@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, promises as fs } from 'node:fs';
 import { dirname, join } from 'node:path';
 
-import { getMovieDetails, normalizeDownloadOptions, selectBest, selectWorst } from './details.js';
+import { getMovieDetails, selectBest, selectWorst } from './details.js';
 import { MovieboxApiError } from './errors.js';
 import { getEpisodeQualities, getSeriesDetails } from './series.js';
 import type { MovieboxSession } from './session.js';
