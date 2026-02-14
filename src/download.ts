@@ -17,6 +17,14 @@ import type {
 const DEFAULT_CHUNK_SIZE = 4 * 1024 * 1024; // 4 MiB
 const DEFAULT_PARALLELISM = 4;
 
+/**
+ * Default headers required by the CDN for download requests.
+ * The Referer header is mandatory — without it the server returns 403.
+ */
+const DOWNLOAD_HEADERS: Record<string, string> = {
+  Referer: 'https://fmoviesunblocked.net/',
+};
+
 interface DownloadBaseParams {
   outputDir?: string;
   filename?: string;
@@ -25,6 +33,7 @@ interface DownloadBaseParams {
   parallel?: number;
   chunkSize?: number;
   keepTempParts?: boolean;
+  headers?: Record<string, string>;
   onProgress?: (progress: DownloadProgress) => void;
 }
 
@@ -75,6 +84,7 @@ export async function downloadMovie(
   if (params.parallel !== undefined) downloadOptions.parallel = params.parallel;
   if (params.chunkSize !== undefined) downloadOptions.chunkSize = params.chunkSize;
   if (params.keepTempParts !== undefined) downloadOptions.keepTempParts = params.keepTempParts;
+  if (params.headers) downloadOptions.headers = params.headers;
   if (params.onProgress) downloadOptions.onProgress = params.onProgress;
 
   await downloadMediaFile(session, descriptor.option, destination, downloadOptions);
@@ -115,6 +125,7 @@ export async function downloadEpisode(
   if (params.parallel !== undefined) downloadOptions.parallel = params.parallel;
   if (params.chunkSize !== undefined) downloadOptions.chunkSize = params.chunkSize;
   if (params.keepTempParts !== undefined) downloadOptions.keepTempParts = params.keepTempParts;
+  if (params.headers) downloadOptions.headers = params.headers;
   if (params.onProgress) downloadOptions.onProgress = params.onProgress;
 
   await downloadMediaFile(session, descriptor.option, destination, downloadOptions);
@@ -131,6 +142,7 @@ export async function downloadMediaFile(
     parallel?: number;
     chunkSize?: number;
     keepTempParts?: boolean;
+    headers?: Record<string, string>;
     onProgress?: (progress: DownloadProgress) => void;
   } = {}
 ): Promise<void> {
@@ -142,6 +154,13 @@ export async function downloadMediaFile(
   const mode = options.mode ?? 'auto';
   const parallelism = Math.max(1, options.parallel ?? DEFAULT_PARALLELISM);
   const chunkSize = Math.max(256 * 1024, options.chunkSize ?? DEFAULT_CHUNK_SIZE);
+
+  // Merge default CDN headers with any user-supplied headers.
+  // User-supplied headers take precedence over defaults.
+  const downloadHeaders: Record<string, string> = {
+    ...DOWNLOAD_HEADERS,
+    ...(options.headers ?? {}),
+  };
 
   await session.ensureSessionCookies();
 
@@ -199,7 +218,8 @@ export async function downloadMediaFile(
         const response = await session.fetchImpl(option.url, {
           method: 'GET',
           headers: {
-            Range: `bytes=${start}-${end}`
+            Range: `bytes=${start}-${end}`,
+            ...downloadHeaders,
           }
         });
 
