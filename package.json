@@ -68,6 +68,7 @@
     "vitest": "^4.0.8"
   },
   "dependencies": {
+    "express": "^5.2.1",
     "pino": "^9.4.0",
     "undici": "^6.19.8"
   }
